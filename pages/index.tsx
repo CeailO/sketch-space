@@ -3,7 +3,7 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import { HexColorPicker } from "react-colorful";
 import { useState } from "react";
-import { useDraw } from "./components/useDraw";
+import { useDraw } from "@/hooks/useDraw";
 
 const inter = Inter({ subsets: ["latin"] });
 
