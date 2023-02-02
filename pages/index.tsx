@@ -1,9 +1,9 @@
 "use client";
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-import { useDraw } from "@/pages/hooks/useDraw";
 import { HexColorPicker } from "react-colorful";
 import { useState } from "react";
+import { useDraw } from "./components/useDraw";
 
 const inter = Inter({ subsets: ["latin"] });
 
